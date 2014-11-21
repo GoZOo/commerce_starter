@@ -5,6 +5,6 @@ includes[] = drupal-org-core.make
 includes[] = drupal-org.make
 ; Download the install profile and recursively build all its dependencies:
 projects[commerce_starter][download][type] = "git"
-projects[commerce_starter][download][url] = "github.com/GoZOo/commerce_starter"
+projects[commerce_starter][download][url] = "git@github.com:/GoZOo/commerce_starter.git"
 projects[commerce_starter][download][branch] = "master"
 projects[commerce_starter][type] = "profile"
