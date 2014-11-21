@@ -1,0 +1,78 @@
+name = Commerce Starter
+description = Install with Drupal Commerce pre-configured for use.
+core = 7.x
+distribution_name = Commerce Starter
+exclusive = 1
+
+; Install necessary core modules.
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = toolbar
+
+; Install Commerce dependencies.
+dependencies[] = addressfield
+dependencies[] = ctools
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = rules
+dependencies[] = rules_admin
+dependencies[] = views
+dependencies[] = views_ui
+
+; Install contrib dependencies
+dependencies[] = date
+dependencies[] = date_popup
+dependencies[] = date_api
+
+; Install the Commerce modules.
+dependencies[] = commerce
+dependencies[] = commerce_ui
+dependencies[] = commerce_cart
+dependencies[] = commerce_checkout
+dependencies[] = commerce_customer
+dependencies[] = commerce_customer_ui
+dependencies[] = commerce_line_item
+dependencies[] = commerce_line_item_ui
+dependencies[] = commerce_price
+dependencies[] = commerce_order
+dependencies[] = commerce_order_ui
+dependencies[] = commerce_payment
+dependencies[] = commerce_payment_ui
+dependencies[] = commerce_shipping
+dependencies[] = commerce_shipping_ui
+dependencies[] = commerce_product
+dependencies[] = commerce_product_ui
+dependencies[] = commerce_product_pricing
+dependencies[] = commerce_product_pricing_ui
+dependencies[] = commerce_product_reference
+dependencies[] = commerce_tax
+dependencies[] = commerce_tax_ui
+
+; Install contribs.
+dependencies[] = module_filter
+dependencies[] = libraries
+dependencies[] = pathauto
+dependencies[] = inline_entity_form
+dependencies[] = entityreference
+dependencies[] = commerce_addressbook
+dependencies[] = commerce_discount
+dependencies[] = commerce_discount_date
+dependencies[] = commerce_backoffice
+dependencies[] = commerce_backoffice_product
+dependencies[] = commerce_backoffice_order
+dependencies[] = commerce_backoffice_content
+dependencies[] = commerce_checkout_progress
+dependencies[] = title
+
+; System Requirements.
+php_memory_limit = 128M
